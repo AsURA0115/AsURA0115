@@ -28,3 +28,30 @@ while x != number:
     print(x, '!')
 
 print('Completed, have a nice day!')
+
+def test():
+    print("Let's test your programming knowledge.")
+    print("Why do we use methods?")
+    options1 = ["1. To repeat a statement multiple times.", "2. To decompose a program into several small subroutines."]
+    options2 = ["3. To determine the execution time of a program.", "4. To interrupt the execution of a program."]
+    
+    print(options1[0])
+    print(options1[1])
+    print(options2[0])
+    print(options2[1])
+
+    answer = int(input())
+    while answer != 2:
+        if answer == 2:
+            print('Completed, you are awesome, have a nice day!')
+        else:
+            print("Please, try again")
+            answer = int(input())
+
+
+def end():
+    print('Congratulations, have a nice day!')
+
+test()
+end()
+
